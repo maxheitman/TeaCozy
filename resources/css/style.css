@@ -1,0 +1,151 @@
+body {
+  background-color: black;
+  color: seashell;
+  font-family: helvetica;
+  font-size: 22px;
+  opacity: 0.9;
+  width: 1200px
+}
+
+
+header {
+  display: flex;
+  position: fixed;
+  top: 0px;
+  align-items: center;
+  justify-content: space-between;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  border-bottom: 1px solid seashell;
+  width: 1200px;
+  background-color: black;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+
+nav {
+  display: flex;
+  margin-right: 20px;
+}
+
+nav span {
+  padding: 20px 10px;
+}
+
+nav a {
+  text-decoration: underline;
+  color: inherit;
+}
+
+h2, h3, h4 {
+    margin: 0;
+    padding: 10px;
+}
+
+
+.main {
+}
+
+.mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 700px;
+  background-image: url(../pics/background.jpg);
+  margin-top: 70px;
+}
+
+.statement  {
+  text-align: center;
+  background-color: black;
+}
+
+.tea_store {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+
+
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 300px;
+  padding: 5px;
+  margin: 10px;
+}
+.store {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+}
+
+.store img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.header {
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+.locations {
+  background-image: url(../pics/locations.jpg);
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.stores {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.location {
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  margin-right: 40px;
+}
+
+.contact {
+  text-align: center;
+  height: 200px;
+
+}
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
+
+
+/*
+
+div {
+  border: 1px solid;
+  border-color: orange;
+  display: block;
+}
+
+
+*/
